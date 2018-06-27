@@ -4,4 +4,9 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="back">Back</string>
+    <string name="name_label">Name</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_label">Confirm Password</string>
+    <string name="not_member">"Not a member? Register here"</string>
 </resources>

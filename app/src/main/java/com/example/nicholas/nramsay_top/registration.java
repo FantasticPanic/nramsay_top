@@ -11,10 +11,10 @@ public class registration extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_login);
     }
 
-    public void register(View view){
+    public void goBack(View view){
         Toast.makeText(this, "MainActivity", Toast.LENGTH_LONG).show();
         Intent intent= new Intent(this, MainActivity.class);
         startActivity(intent);
