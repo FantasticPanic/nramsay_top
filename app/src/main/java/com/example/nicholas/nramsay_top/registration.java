@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class registration extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_registration);
     }
 
     public void register(View view){
-        Toast.makeText(this, "registration", Toast.LENGTH_LONG).show();
-        Intent intent= new Intent(this, registration.class);
+        Toast.makeText(this, "MainActivity", Toast.LENGTH_LONG).show();
+        Intent intent= new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }

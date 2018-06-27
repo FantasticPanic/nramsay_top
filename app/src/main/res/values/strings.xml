@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">nramsay_top</string>
+    <string name="welcome">Welcome to TOP</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="back">Back</string>
 </resources>
